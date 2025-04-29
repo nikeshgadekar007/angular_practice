@@ -1,9 +1,16 @@
-
 <div class="table">
   <div class="row">
     <div class="col-4">
       <h4>One way data binding</h4>
-      {{myName}}
+      {{ myName }} <br />
+      <input [(ngModel)]="myName" #ctrl="ngModel" required />
+      <br />
+      @for (item of operatingSystems; track $index) {
+      {{ item.name }}<br />
+      }
+      <button [disabled]="isBtnDisable()">Click me !!!</button><br />
+      <button (click)="toggleMe($event)">Toggle me !!!</button><br />
+      {{totaVal}}
     </div>
   </div>
 </div>
