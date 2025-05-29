@@ -19,9 +19,9 @@
  <!-- NgFor & NgSwitch -->
 <h4>NgSwitch</h4>
 <ul *ngFor="let person of people"
-    [ngSwitch]="person.country"> (1)
+    [ngSwitch]="person.country">
 
-  <li *ngSwitchCase="'UK'" (2)
+  <li *ngSwitchCase="'UK'"
       class="text-success">{{ person.name }} ({{ person.country }})
   </li>
   <li *ngSwitchCase="'USA'"
@@ -30,7 +30,7 @@
   <li *ngSwitchCase="'HK'"
       class="text-danger">{{ person.name }} ({{ person.country }})
   </li>
-  <li *ngSwitchDefault (3)
+  <li *ngSwitchDefault
       class="text-warning">{{ person.name }} ({{ person.country }})
   </li>
 </ul>

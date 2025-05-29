@@ -24,34 +24,34 @@ export class MyDirectivesComponent {
   myCity = 'Hong Kong';
 
   // ng-if
-  divVisible =  true;
+  divVisible = true;
 
   // NgFor & NgSwitch
   people: any[] = [
     {
-      "name": "Douglas  Pace",
-      "age": 35,
-      "country": 'MARS'
+      name: 'Douglas  Pace',
+      age: 35,
+      country: 'MARS',
     },
     {
-      "name": "Mcleod  Mueller",
-      "age": 32,
-      "country": 'USA'
+      name: 'Mcleod  Mueller',
+      age: 32,
+      country: 'USA',
     },
     {
-      "name": "Day  Meyers",
-      "age": 21,
-      "country": 'HK'
+      name: 'Day  Meyers',
+      age: 21,
+      country: 'HK',
     },
     {
-      "name": "Aguirre  Ellis",
-      "age": 34,
-      "country": 'UK'
+      name: 'Aguirre  Ellis',
+      age: 34,
+      country: 'UK',
     },
     {
-      "name": "Cook  Tyson",
-      "age": 32,
-      "country": 'USA'
-    }
+      name: 'Cook  Tyson',
+      age: 32,
+      country: 'USA',
+    },
   ];
 }

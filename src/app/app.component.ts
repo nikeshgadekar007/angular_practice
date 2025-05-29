@@ -9,8 +9,16 @@ import { CounterComponent } from './components/counter/counter.component';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MyDirectivesComponent } from './components/my-directives/my-directives.component';
-import { NgClass, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault, CommonModule } from '@angular/common';
-import {RouterLink } from "@angular/router";
+import {
+  NgClass,
+  NgIf,
+  NgSwitch,
+  NgSwitchCase,
+  NgSwitchDefault,
+  CommonModule,
+} from '@angular/common';
+import { RouterLink } from '@angular/router';
+import { TodosApiConsumeComponent } from './components/todos-api-consume/todos-api-consume.component';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +31,7 @@ import {RouterLink } from "@angular/router";
     ParentComponent,
     ChildComponent,
     CounterComponent,
+    TodosApiConsumeComponent,
     FormsModule,
     NgbModule,
     CommonModule,
